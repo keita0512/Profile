@@ -53,12 +53,13 @@ img {
 /* --- メインビジュアル --- */
 .main-visual {
     width: 100%;
-    margin-bottom: 80px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .main-visual img {
     width: 100%;
-    height: 400px; /* 高さを固定してトリミング */
+    height: auto; /* 高さを固定してトリミング */
     object-fit: cover;
 }
 
